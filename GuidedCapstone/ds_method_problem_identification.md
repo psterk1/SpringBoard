@@ -13,7 +13,7 @@ The Data Science Method
 5. Modeling
 6. Documentation
 
-1. Problem Identification
+## Problem Identification
 Problem identification is the very first, essential step to a well-positioned data science project.
 Start by identifying the goal of the data science project. Ask the question: Is this an exploratory project or a predictive modeling project? If the answer is exploratory, then less planning may be needed at the outset to ensure interesting and meaningful outcomes. You might have questions about how you can tell if a project is exploratory or predictive, so let’s work through some examples. You may be given a data set for a project and asked questions such as:
 

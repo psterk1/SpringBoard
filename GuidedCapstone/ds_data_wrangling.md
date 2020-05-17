@@ -40,7 +40,7 @@ Here is an example of a simple modeling directory.
 It’s clearly lacking creativity with the higher folder names, but what it lacks in creativity it gains in simplicity. The date and time stamps help to provide a simple way to identify previous model iterations. Adding a more descriptive name to each modeling folder is good to such as; RandomForest_500, or RCN_3layers.
 As you start to develop more advanced methods you may need a more complex structure. Another common method for project organization in Python is by using the cookiecutter python package to generate the file structure for a new project. Below is what the structure looks like.
 
-![](https://drivendata.github.io/cookiecutter-data-science/)
+![alt](https://miro.medium.com/max/1400/1*MpwB4_5jl9lsrYhgBjMF2g.png)
 
 If you come from a computer science background you may already be familiar with the concept of version control, Git, and Github. Learning how to effectively use Git and repositories is a core skill for all data scientists. More junior data scientists should spend some time reviewing the concepts of version control and expect any established data science team they join to be using it daily.
 
@@ -57,6 +57,8 @@ The data definition should contain the following items by column:
 5. The range of values or codes
 
 One example of data definitions is what kaggle has on their datasets pages about each downloadable dataset. Below is the header for the table on student’s exam performance with some important data descriptors identified.
+
+![](https://miro.medium.com/max/1400/1*j1fHigZCVVQqihY66uU1Qw.png)
 
 Example of data definition — from kaggle.com
 Here is another example where the variable called ‘NETW30’ is described in detail in the sentence above the table. The table defines each column by the unique codes found in that column, the particular description each code represents as well as the count and percent of each unique code in the column. Based on the description we can infer this is a categorical data column that represents the results of a prior statistical model which may have multiplicative error considerations which are good to be aware of.
